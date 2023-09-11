@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>digital design</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Rianne Aguas Homepage">
+	<meta name="keywords" content="HTML, CSS, Responsive">
+	<meta name="author" content="Rianne Aguas">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+
+<style>
+
+.digitaltitle{
+	text-align: center;
+	margin-top: 80px;
+}	
+
+.stellarexplorers{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border: 3px solid #5E7358;
+}
+
+#seleft{
+	width: 260px;
+	padding-left: 40px;
+	float: left;
+	padding-top: 20px;
+	background-color: white;
+}
+
+#seleft h2,h3{
+	margin: 0px;
+}
+
+#seright{
+	width: 575px;
+	float: left;
+	background-color: white;
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-right: 15px;
+}
+
+.stellarexplorers img{
+	height: 200px;
+	width: auto;
+	padding-left: 80px;
+	padding-bottom: 20px;
+}
+
+.daniel{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: white;
+	border: 3px solid #5E7358;
+}
+
+#dsleft{
+	width: 260px;
+	padding-top: 20px;
+	padding-left: 40px;
+	float: left;
+}
+
+#dsleft h2,h3{
+	margin: 0px;
+}
+
+#dsright{
+	width: 550px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 8px;
+	float: left;
+}
+
+.daniel img{
+	height: 200px;
+	padding-left: 120px;
+	padding-bottom: 20px;
+}
+
+.thepen{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: white;
+	border: 3px solid #5E7358;
+}
+
+#penleft{
+	width: 260px;
+	padding-top: 25px;
+	padding-left: 40px;
+	float: left;
+}
+
+#penleft h2,h3{
+	margin: 0px;
+}
+
+#penright{
+	width: 550px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 8px;
+	float: left;
+}
+
+#penright a{
+	text-decoration: none;
+	color: mediumpurple;
+}
+
+#penright a:hover{
+	text-decoration: underline;
+}
+
+.thepen img{
+	height: 250px;
+	width: auto;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+.bottom{
+	float: left;
+	padding: 20px;
+	margin-left: 50px;
+	margin-right: 0px;
+	width: 1200px;
+}
+
+.flexslider-container{
+	text-align: center;
+	margin-top: 30px;
+	margin: 0 auto;
+	width: 30%;
+	float: left;
+	margin-right: 100px;
+	margin-left: 120px;
+}
+
+.request{
+	float: left;
+	width: 550px;
+	height: auto;
+	padding: 20px;
+	padding-left: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 150px;
+	margin-top: 22px;
+	background-color: lavender;
+	border: 4px solid #5E7358;
+	border-radius: 7%;
+}
+
+.request h1,h2,p{
+	text-align: center;
+}
+
+#submitbtn, #resetbtn{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Poppins';
+}
+
+.buttons{
+	text-align: center;
+}
+
+.request img{
+	width: 150px;
+	height: auto;
+}
+
+.list{
+	text-align: center;
+	margin-left: 20px;
+}
+
+.list button{
+	margin-top: 10px;
+}
+
+.listheading{
+		width: 500px;
+		margin: 0px;
+		text-align: center;
+	}
+
+.listheading h2{
+	margin: 0px;
+	padding-bottom: 3px;
+}
+
+#clear{
+	color: red;
+	margin-bottom: 10px;
+}
+
+table{
+	table-layout: fixed;
+	margin: 0px auto;
+}
+
+#listtable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr{
+	border-bottom: 2px solid rosybrown;
+}
+
+th{
+	padding: 10px;
+	width: 150px;
+}
+
+.error {
+	color: red;
+	position: relative;
+	display: block;
+	width: 500px;
+	text-align: left;
+}
+
+.remove{
+	color: red;
+	cursor: pointer;
+}
+
+.currentproject{
+	width: 900px;
+	background-color: #E6EDE6;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border: 3px solid rosybrown;
+}
+
+.cow{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.currentproject h2{
+	font-size: 26px;
+	margin-bottom: 0px;
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="container">
+
+<div id="navbar">
+	<div id="nav">
+		<a href="index.html#welcome"><img src="img/purplelogo.png" alt="rianne aguas logo"/></a>
+		<ul>
+			<li><a href="copy.html">copy</a></li>
+			<li><a href="marketing.html">marketing</a></li>
+			<li><a>design</a>
+				<ul>
+					<li><a href="digital.html" class="active">digital</a></li>
+					<li><a href="finearts.html">fine arts</a></li>
+				</ul>
+			</li>
+			<li><a href="index.html#welcome">home</a></li>
+		</ul>
+		<div class="clearfloat"></div>
+	</div> <!-- nav -->
+</div> <!-- navbar -->
+
+<div class="digitaltitle">
+	<h1>digital projects</h1>
+	<p>I've always had an affinity for creativity, and love to illustrate this passion through my projects! <br>See below for a couple of past and present digital projects!</p>
+</div> <!-- digitaltitle -->
+
+<div class="stellarexplorers">
+	<div id="seleft">
+		<h2><em>stellar explorers</em></h2>
+		<h3>board game design</h3>
+		<p>2019 Technology Student Association (TSA) National Competition Finalist for "Board Game Design"</p>
+	</div><!-- seleft -->
+
+	<div id="seright">
+		<p>I fully created and designed the game board and cover for my team's submission at the 2019 National TSA Competition.</p>
+		<p>Using Procreate and Photoshop, I used a myriad of brushes and digital mediums to complete this project.</p>
+		<p>This design placed regionally in CA, allowing my team to compete with it at the national competition.</p>
+	</div><!-- seright -->
+
+<img src="img/cover.png" alt="stellar explorer board"/>
+<img src="img/board.png" alt="stellar explorer cover"/>
+</div> <!-- stellarexplorers -->
+
+<div class="daniel">
+	<div id="dsleft">
+		<h2><em>daniel su</em></h2>
+		<h3>yearbook dedication and memorial graphic</h3>
+		<p>Submission to La Pantera Yearbook of Palos Verdes Peninsula HS with a dedication to Daniel Su (c/o '20).</p>
+	</div><!-- dsleft -->
+
+	<div id="dsright">
+		<p>I fully created and designed the game board and cover for my team's submission at the 2019 National TSA Competition.</p>
+		<p>Using Procreate and Photoshop, I used a myriad of brushes and digital mediums to complete this project.</p>
+		<p>This design placed regionally in CA, allowing my team to compete with it at the national competition.</p>
+	</div><!-- dsright -->
+<div class="clearfloat"></div>
+<img src="img/dedication.png" alt="yearbook dedication"/>
+<img src="img/memorial.png" alt="memorial graphic"/>
+</div> <!-- danielsu -->
+
+<div class="thepen">
+	<div id="penleft">
+		<h2><em>the pen</em></h2>
+		<h3>newspaper logo and heading design</h3>
+		<p>Design for Palos Verdes Peninsula HS's award-winning newspaper.</p>
+	</div><!-- penleft -->
+
+	<div id="penright">
+		<p>Serving as the editor-in-chief of <a href="https://issuu.com/thepennews" target="_blank" class="pen">The Pen</a>, I took on the responsibility of designing our newspaper logo for the coming year. Using calligraphy brushes on Procreate, I tested many prototypes for the logo before coming up with the final version.</p>
+		<p>The final version is used on all issues from the 2019-20 school year. During this year, The Pen continued to win awards for both design and content.</p>
+	</div><!-- penright -->
+
+<img src="img/logos.png" alt="the pen logo"/>
+<img src="img/issue2.png" alt="the pen issue 2"/>
+<img src="img/issue5.png" alt="the pen issue 5"/>
+</div> <!-- thepen -->
+
+<div class="currentproject">
+	<br>
+	<h2 class="strawberrycow">A sneak peak of my current project: stickers!</h2>
+	<p>Shhh...help me keep it a secret by hovering away to hide it!</p>
+	<img class="cow" src="img/cow.png" alt="strawberry cow">
+</div><!-- currentproject -->
+
+<div class="bottom">
+
+	<div class="flexslider-container">
+		<h1>digital designs</h1>
+		<p>just to practice and for fun in my free time! :)</p>
+	<div class="flexslider">
+	  <ul class="slides">
+	    <li data-thumb="img/coldbrew.png">
+	      <img src="img/coldbrew.png" alt="coldbrew"/>
+	    </li>
+	    <li data-thumb="img/catches.jpg">
+	      <img src="img/catches.jpg" alt="catches"/>
+	    </li>
+	    <li data-thumb="img/cake.png">
+	      <img src="img/cake.png" alt="cake"/>
+	    </li>
+	    <li data-thumb="img/sesame.png">
+	      <img src="img/sesame.png" alt="sesame"/>
+	    </li>
+	    <li data-thumb="img/everything.png">
+	      <img src="img/everything.png" alt="everything"/>
+	    </li>
+	    <li data-thumb="img/lazy.png">
+	      <img src="img/lazy.png" alt="lazy"/>
+	    </li>
+	    <li data-thumb="img/window.png">
+	      <img src="img/window.png" alt="window"/>
+	    </li>
+	    <li data-thumb="img/katesmallows.png">
+	      <img src="img/katesmallows.png" alt="katesmallows"/>
+	    </li>
+	  </ul>
+	</div> <!-- flexslider -->
+	</div> <!-- flexslider-container -->
+
+	<div class="request">
+	<h1>digital designs request list</h1>
+	<p>this list can be used to note design requests! <a href="mailto:raguas@usc.edu">send the list to me</a> after! be sure to enter in enough detail to ensure accuracy.</p>
+
+		<br>
+		<div class="different">
+			<label for="different" class="straight">describe what you want:</label>
+			<input type="text" id="different" placeholder="name, details...">
+			<br>
+		<div class="clearfloat"></div>
+		</div><!-- different -->
+
+		<div class="buttons">
+		<br>
+		<button type="submit" id="submitbtn">add</button>
+		<button type ="reset" id="resetbtn">reset</button>
+		</div><!-- buttons -->	
+
+	<h2>my requests</h2>
+	<table>
+	    <tbody>
+	      <tr>
+	        <td><span class="remove">x</span> Cat Illustration</td>
+	      </tr>
+	      <tr>
+	        <td><span class="remove">x</span> Food Sticker</td>
+	      </tr>
+	      <tr>
+	        <td><span class="remove">x</span> Insta Shop Commission</td>
+	      </tr>
+	    </tbody>
+  	</table>
+
+	</div><!-- request -->
+</div><!-- bottom -->
+</div><!-- container -->
+
+<script>
+	
+// reset button
+document.querySelector("#resetbtn").onclick = function(){
+        document.querySelector("tbody").innerHTML = "";
+}
+
+// adding nodes
+document.querySelector("#submitbtn").onclick = function(){
+    var newDesign = document.querySelector("#different").value.trim();
+      console.log(newDesign);
+    // add if user inputs something
+    if (newDesign.length > 0){
+    	var newDesignList = document.querySelectorAll("td");
+    }
+
+    // nodes
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    var span = document.createElement("span");
+
+    span.classList.add("remove");
+    span.innerHTML = "x "
+    td.appendChild(span);
+    td.append(newDesign);
+
+    span.onclick = function(){
+    	this.parentNode.parentNode.remove();
+    }
+
+    document.querySelector("tbody").appendChild(tr);
+    tr.appendChild(td);
+
+    document.querySelector('#different').value = "";
+}
+
+// delete buttons under data submission section
+var deleteX = document.querySelectorAll(".remove");
+    for (var i = 0; i < deleteX.length; i++) {
+        deleteX[i].onclick = function (){
+        this.parentNode.parentNode.remove();
+	    }
+	}
+
+</script>
+
+<script>
+	
+function secretDesign(){
+	var opacity = getComputedStyle(document.querySelector('.cow')).getPropertyValue('opacity');
+	opacity = parseFloat(opacity);
+	if ( opacity > 0 ) {
+		document.querySelector('.cow').style.opacity = opacity - 0.05;
+		requestAnimationFrame(secretDesign);
+	} else {
+		// stop animation
+		cowClear = false;
+	}
+}
+
+function showDesign(){
+	var opacity = getComputedStyle(document.querySelector('.cow')).getPropertyValue('opacity');
+	opacity = parseFloat(opacity);
+	if ( opacity < 1 ) {
+		document.querySelector('.cow').style.opacity = opacity + 0.05;
+		requestAnimationFrame(showDesign);
+	} else {
+		cowClear = false;
+	}
+}
+
+var cowClear = false;
+document.querySelector('.strawberrycow').onmouseleave = function(){			
+	if (cowClear == false) {
+		cowClear = true;
+		requestAnimationFrame(showDesign);
+	}
+}
+
+document.querySelector('.strawberrycow').onmouseenter = function(){
+	if (cowClear == false) {
+		cowClear = true;
+		requestAnimationFrame(secretDesign);
+	}
+}
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript">
+ 	$(window).load(function() {
+  	$('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  	});
+
+  	ScrollOut({
+       threshold: 0.8,
+      });
+  
+	});
+</script>
+
+<script src="wiv.js"></script>
+<script>
+  //initial wivs and call initial frame render
+  let w = wiv.wiv();
+  w.initWivs();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #F7F6F5;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3{
+	text-shadow: 2px 2px 2px white ;
+}
+
+#navbar{
+  position: -webkit-sticky;
+  position: sticky;
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  background: linear-gradient(to bottom, #000, #0003 70%,#0000);
+  transition: background 0.5s;
+}
+
+#nav{
+	width:100%;
+	background-color:#F7F6F5;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#navbar img{
+	position:absolute;
+	width:42px;
+	margin:5px 20px;
+	transform:all 5s;
+}
+
+#navbar img:hover{
+	transform:scale(0.9);
+}
+
+#nav ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+#nav li{
+	position:relative;
+	width:200px;
+	background-color:#F7F6F5;
+	float:right;
+	text-align:center;
+	line-height:50px;
+}
+
+#nav a{
+	display:block;
+	text-decoration:none;
+	color: #9c9ab5;
+}
+
+#nav a:hover{
+	color: black;
+}
+
+#nav a.active{
+	color:#1f2020;
+}
+
+#nav ul ul{
+	position:absolute;
+	visibility:hidden;
+	z-index:30;
+}
+
+#nav ul li:hover > ul{
+	visibility: visible;
+}
+
+.artwork-container{
+	float: left;
+	text-align: center;
+	padding: 21px;
+}
+
+.artwork-container p{
+	font-size: 18px;
+}
+	
+.artwork-container img{
+	height: 300px;
+}
+	
+.artwork{
+	transition: all 1s;
+}
+
+.artwork:hover{
+	transform: scale(1.1);
+}
+
+button{
+	font-family: 'Poppins',sans-serif;
+}
+	
+.clearfloat{
+	clear: both;
+}
+
+.footer{
+	text-align: center;
+	margin: 50px;
+}

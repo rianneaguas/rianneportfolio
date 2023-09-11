@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rianne Aguas | Portfolio</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Rianne Aguas Homepage">
+	<meta name="keywords" content="HTML, CSS, Responsive">
+	<meta name="author" content="Rianne Aguas">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="styles.css">
+
+<style>
+
+body{
+	background-color: #f1f0f7;
+}
+
+.welcome{
+	margin-top: 130px;
+	text-align: center;
+}
+
+.welcome h1{
+	font-size:80px;
+	margin:0px;
+}
+
+.welcome h2{
+	font-size:30px;
+	margin:0px;
+}
+
+.welcome h3{
+	font-size:20px;
+}
+
+.arrow{
+	margin-top: 100px;
+	height: 100px;
+}
+
+#blank{
+	color: #F7F6F5;
+}
+
+#about{
+	margin-top: 100px;
+	text-align: center;
+}
+
+#about img{
+	height: 280px;
+}
+
+#about strong{
+	text-decoration: underline;
+	color: #5E7358;
+}
+
+#about p{
+	margin: 0px 200px
+}
+
+.resume{
+	margin: 0px;
+	text-align: center;
+}
+
+.resume img{
+	margin: 40px 0px;
+	height: 270px;
+}
+
+.resume img:hover{
+	transform:scale(0.9);
+}
+
+.andmore p{
+	margin: 0px 200px;
+	text-align: center;
+} 
+
+.contact{
+	width: 550px;
+	height: auto;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+	background-color: #CCD9BF;
+	border: 4px solid #5E7358;
+	border-radius: 7%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.clearfloat{
+	clear: both;
+}
+
+#submitbtn, #resetbtn{
+	border: 3px solid white;
+	border-radius: 10%;
+	font-size: 15px;
+	padding: 10px 30px;
+	margin: 15px;
+}
+	
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div id="navbar">
+	<div id="nav">
+		<a href="index.html#welcome"><img src="img/purplelogo.png" alt="rianne aguas logo"/></a>
+		<ul>
+			<li><a href="copy.html">copy</a></li>
+			<li><a href="marketing.html">marketing</a></li>
+			<li><a>design</a>
+				<ul>
+					<li><a href="digital.html">digital</a></li>
+					<li><a href="finearts.html">fine arts</a></li>
+				</ul>
+			</li>
+			<li><a href="index.html#welcome" class="active">home</a></li>
+		</ul>
+		<div class="clearfloat"></div>
+	</div> <!-- nav -->
+</div> <!-- navbar -->
+
+<div class="welcome">
+	<h1>Welcome</h1>
+	<h2>My name is Rianne Aguas.</h2>
+	<h3>I'm an aspiring product manager with practice<br/>in design, communication, and user experience.</h3>
+	<a href="index.html#blank"><img class="arrow" src="img/arrow.gif" alt="arrow"></a>
+</div> <!-- welcome -->
+
+<div id="blank">
+	<p>hello</p>
+</div>
+
+<div id="about">
+	<img src="img/profilepic.png" alt="rianne aguas profilepic">
+	<h1>Hello! Nice to meet you.</h1>
+	<p>My name is Rianne and I'm a current undergraduate at the University of Southern California studying Communication, Communication Design, and Web Development with an expected graduation date of December 2023. I'm interested in the tech industry, especially in opportunities where it intersects with other industries! Above all, I have a passion for innovation and interconnection, and I strive to integrate these passions whether it's creating products, managing projects, or devising strategy-focused solutions. <strong>Fun fact: I actually coded this website from scratch!</strong></p>
+</div> <!-- about -->
+
+<div class="resume">
+	<a href="https://drive.google.com/file/d/1N0sMs8Uyc_k4E4zK2Wsf9a99DDGbYZ_f/view?usp=sharing" target="_blank"><img src="img/resume.png" alt="rianne aguas resume"/></a>
+</div> <!-- resume -->
+
+<div class="andmore">
+	<p>I've always had a passion for creating, communicating, and delivering my thoughts and ideas. As such, I've found my outlets in design and marketing! A few languages and platforms I'm familiar with:
+	<strong>HTML/CSS, JavaScript, Python, SQL, PHP, English, Mandarin Chinese (business proficiency), Microsoft Office, Google Workspace, Adobe Creative Cloud, Figma, Procreate, Tableau, CAD</strong></p>
+	<br>
+	<p>Beyond this, my skills and hobbies lie in: <strong>cooking, journaling, <a href="https://www.yelp.com/user_details?userid=SvWm7q5CeBuSXXldRkFh7A&utm_source=ishare" target="_blank" class="yelp">Yelp reviewing</a>, stickers, food blogging, and Kindle reading</strong>. Not to mention, I'm an <strong>avid dog-lover</strong> and <strong>devoted sushi enthusiast!</strong></p>
+	<br>
+	<p>For further explication or to simply chat some more, please reach me at <strong><a href="mailto:riannee02@gmail.com">riannee02@gmail.com</a></strong> or <a href="https://www.linkedin.com/in/rianneaguas/" target="_blank">on my LinkedIn</a>. :)</p>
+</div>
+
+<div class="contact">
+<form id="contact-form">
+	<h1>Contact Form</h1>
+
+	<div class="firstname">
+		<label for="firstname">First Name: </label>
+		<input type="text" id="firstname" placeholder="First">
+		<br>
+		<small id="firsterror" class="error"></small>
+	<div class="clearfloat"></div>
+	</div><!-- firstname -->
+
+	<div class="lastname">
+		<label for="lastname">Last Name: </label>
+		<input type="text" id="lastname" placeholder="Last">
+		<br>
+		<small id="lasterror" class="error"></small>
+	<div class="clearfloat"></div>
+	</div><!-- lastname -->
+
+	<div class="email">
+		<label for="email">Email: </label>
+		<input type="text" id="email" placeholder="ttrojan@usc.edu">
+		<br>
+		<small id="emailerror" class="error"></small>
+	<div class="clearfloat"></div>
+	</div><!-- email -->
+
+	<div class="phone">
+		<label for="phone">Phone: </label>
+		<input type="text" id="phone" placeholder="123-456-7890">
+		<br>
+		<small id="phoneerror" class="error"></small>
+	<div class="clearfloat"></div>
+	</div><!-- phone -->
+
+	<div class="reason">
+		<label for="reason">Reason for Contact: </label>
+		<input type="text" id="reason" placeholder="Inquiry, chat, etc.">
+		<br>
+		<small id="reasonerror" class="error"></small>
+	<div class="clearfloat"></div>
+	</div><!-- reason -->
+
+	<div class="message">
+	<br>
+		<label for="message">Message:</label>
+		<br>
+		<textarea id="message" placeholder="insert message here..." rows="10" cols="50"></textarea>
+		<br>
+		<small id="messageerror" class="error"></small>
+	<div class="clearfloat"></div>
+	</div><!-- message -->
+
+	<div class="submitandreset">
+	<br>
+		<button id="submitbtn" type="submit">Submit</button>
+		<button id="resetbtn" type="reset">Reset</button>
+	<div class="clearfloat"></div>
+	</div><!-- submit and reset-->
+</form>
+</div><!-- contact -->
+
+<div class="footer">
+<p>© 2022 by Rianne Aguas</p>
+</div> <!-- footer -->
+
+</div> <!-- container -->
+
+<script>
+
+// When page first loads:
+
+if (localStorage.firstName != undefined){
+	document.querySelector('#firstname').value = localStorage.firstName;
+} else {
+	document.querySelector('#firstname').value = '';
+}
+
+if (localStorage.lastName != undefined){
+	document.querySelector('#lastname').value = localStorage.lastName;
+} else {
+	document.querySelector('#lastname').value = '';
+}
+
+if (localStorage.otherContact != undefined){
+	var otherContact_parse = JSON.parse(localStorage.otherContact);
+
+	if (otherContact_parse.email != undefined){
+		document.querySelector('#email').value = otherContact_parse.email;
+	}
+
+	if (otherContact_parse.phone != undefined){
+		document.querySelector('#phone').value = otherContact_parse.phone;
+	}
+
+	if (otherContact_parse.reason != undefined){
+		document.querySelector('#reason').value = otherContact_parse.reason;
+	}
+
+	if (otherContact_parse.message != undefined){
+		document.querySelector('#message').value = otherContact_parse.message;
+	}
+}
+
+// When the form is submitted:
+document.querySelector('#contact-form').onsubmit = function (){
+	// create variables
+	var firstName = document.querySelector('#firstname').value.trim();
+	var lastName = document.querySelector('#lastname').value.trim();
+	var email = document.querySelector('#email').value.trim();
+	var phone = document.querySelector('#phone').value.trim();
+	var reason = document.querySelector('#reason').value.trim();
+	var message = document.querySelector('#message').value.trim();
+	
+	var contact = {
+		email: " ",
+		phone: " ",
+		reason: " ",
+		message: " "
+	};
+
+	// validation for first name
+
+	if (/^$/.test(firstName)) {
+		document.querySelector('#firsterror').innerHTML = "Please enter your first name."
+		document.querySelector('#firsterror').style.color = "#FF0000"
+		return false;
+	} else if (/\d/.test(firstName)) {
+		document.querySelector('#firsterror').innerHTML = "First name must contain letters only."
+		document.querySelector('#firsterror').style.color = "#FF0000"
+		return false;
+	} else {
+		document.querySelector('#firsterror').innerHTML = "";
+	}
+
+	// validation for last name
+
+	if (/^$/.test(lastName)) {
+		document.querySelector('#lasterror').innerHTML = "Please enter your last name."
+		document.querySelector('#lasterror').style.color = "#FF0000"
+		return false;
+	} else if (/\d/.test(lastName)) {
+		document.querySelector('#lasterror').innerHTML = "Last name must contain letters only."
+		document.querySelector('#lasterror').style.color = "#FF0000"
+		return false;
+	} else {
+		document.querySelector('#lasterror').innerHTML = "";
+	}
+
+	// validation for email
+
+	if (/^$/.test(email)) {
+		document.querySelector('#emailerror').innerHTML = "Please enter your email."
+		document.querySelector('#emailerror').style.color = "#FF0000"
+		return false;
+	} else if (/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email) == false) {
+		document.querySelector('#emailerror').innerHTML = "Please enter a valid email."
+		document.querySelector('#emailerror').style.color = "#FF0000"
+		return false;
+	} else {
+		document.querySelector('#emailerror').innerHTML = "";
+	}
+
+	// validation for phone
+
+	if (/^$/.test(phone)) {
+		document.querySelector('#phoneerror').innerHTML = "Please enter your phone number."
+		document.querySelector('#phoneerror').style.color = "#FF0000"
+		return false;
+	} else if (/[A-za-z]/.test(phone)){
+		document.querySelector('#phoneerror').innerHTML = "Phone  must contain numbers only."
+		document.querySelector('#phoneerror').style.color = "#FF0000"
+		return false;
+	} else {
+		document.querySelector('#phoneerror').innerHTML = "";
+	}
+
+	// validation for reason
+
+	if (/^$/.test(reason)) {
+		document.querySelector('#reasonerror').innerHTML = "Please enter your reason."
+		document.querySelector('#reasonerror').style.color = "#FF0000"
+		return false;
+	} else if (/\d/.test(reason)) {
+		document.querySelector('#reasonerror').innerHTML = "Reason must contain letters only."
+		document.querySelector('#reasonerror').style.color = "#FF0000"
+		return false;
+	} else {
+		document.querySelector('#reasonerror').innerHTML = "";
+	}
+
+	// validation for message
+
+	if (/^$/.test(message)){
+		document.querySelector('#messageerror').innerHTML = "Message cannot be empty."
+		document.querySelector('#messageerror').style.color = "#FF0000"
+		return false;
+	} else {
+		document.querySelector('#messageerror').innerHTML = "";
+	}
+
+	// Save everything into the localStorage
+
+	if (firstName.length > 0){
+		localStorage.firstName = firstName;
+	}
+
+	if (lastName.length > 0){
+		localStorage.lastName = lastName;
+	}
+
+	if (email.length > 0){
+		contact.email = email;
+		localStorage.otherContact = JSON.stringify(contact);
+	}
+
+	if (phone.length > 0){
+		contact.phone = phone;
+		localStorage.otherContact = JSON.stringify(contact);
+	}
+
+	if (reason.length > 0){
+		contact.reason = reason;
+		localStorage.otherContact = JSON.stringify(contact);
+	}
+
+	if (message.length > 0){
+		contact.message = message;
+		localStorage.otherContact = JSON.stringify(contact);
+	}
+
+	alert('Thank you! We will be in contact.')
+
+	return false;
+
+}
+
+// when reset button is clicked
+document.querySelector('#resetbtn').onclick = function(){
+	document.querySelector('#firsterror').innerHTML = "";
+	document.querySelector('#lasterror').innerHTML = "";
+	document.querySelector('#emailerror').innerHTML = "";
+	document.querySelector('#phoneerror').innerHTML = "";
+	document.querySelector('#reasonerror').innerHTML = "";
+	document.querySelector('#messageerror').innerHTML = "";
+
+	document.querySelector('#firstname').value = "";
+	document.querySelector('#lastname').value = "";
+	document.querySelector('#email').value = "";
+	document.querySelector('#phone').value = "";
+	document.querySelector('#reason').value = "";
+	document.querySelector('#message').value = "";
+
+	localStorage.clear();
+
+	alert('Contact Information Cleared.')
+}
+
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fine arts</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Rianne Aguas Homepage">
+	<meta name="keywords" content="HTML, CSS, Responsive">
+	<meta name="author" content="Rianne Aguas">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="styles.css">
+	<link href="lightbox/css/lightbox.css" rel="stylesheet"/>
+
+<style>
+.fineartstitle{
+	text-align: center;
+	margin-top: 80px;
+}	
+
+#rowone, #rowtwo{
+	margin-left: 50px;
+}
+
+.see{
+	text-align: center;
+	background-color: #c7c5db;
+	padding: 20px;
+	padding-bottom: 35px;
+	width: 1000px;
+	margin: auto;
+	border: 5px solid #8682ad;
+	border-radius: 10px;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.main-img{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.main-img img{
+	height: 400px;
+	width: auto;
+}
+
+button{
+	font-size: 20px;
+	background-color:#B2BF9F; 
+	border: 4px solid #5E7358;
+	border-radius: 10%;
+	padding: 10px;
+	margin: 20px;
+}
+
+.bottompics img{
+	height: 150px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div id="navbar">
+	<div id="nav">
+		<a href="index.html#welcome"><img src="img/purplelogo.png" alt="rianne aguas logo"/></a>
+		<ul>
+			<li><a href="copy.html">copy</a></li>
+			<li><a href="marketing.html">marketing</a></li>
+			<li><a>design</a>
+				<ul>
+					<li><a href="digital.html">digital</a></li>
+					<li><a href="finearts.html" class="active">fine arts</a></li>
+				</ul>
+			</li>
+			<li><a href="index.html#welcome">home</a></li>
+		</ul>
+		<div class="clearfloat"></div>
+	</div> <!-- nav -->
+</div> <!-- navbar -->
+
+<div class="fineartstitle">
+	<h1>fine arts projects</h1>
+	<p>Though I mainly design digital illustrations, I also find my passions in fine arts!<br>As a design minor at USC, I'm able to explore many avenues through the fine arts. See some of my work below!</p>
+</div> <!-- fineartstitle -->
+
+<!-- content starts -->
+<div class="artwork-container" id="rowone">
+	<div class="artwork">
+		<a href="img/art1.jpeg" data-lightbox="finearts" data-title="Suicore"><img src="img/art1.jpeg" alt="suicore"/></a>
+	</div>
+	<p>"Suicore"<br/>15"x 20"<br/>Ink on Illustration Board</p>
+</div>
+
+<div class="artwork-container">
+	<div class="artwork">
+		<a href="img/art2.jpeg" data-lightbox="finearts" data-title="Infinity Knots"><img src="img/art2.jpeg" alt="infinity knots"/></a>
+	</div>
+	<p>"Infinity Knots"<br/>8"x 8"<br/>Acrylic on Canvas</p>
+</div>
+
+<div class="artwork-container">
+	<div class="artwork">
+		<a href="img/art3.jpeg" data-lightbox="finearts" data-title="Onigiri Love"><img src="img/art3.jpeg" alt="onigiri love"/></a>
+	</div>
+	<p>"Onigiri Love"<br/>15"x 20"<br/>Ink on Illustration Board</p>
+</div>
+<div class="clearfloat"></div>
+
+<div class="artwork-container" id="rowtwo">
+	<div class="artwork">
+		<a href="img/art4.jpeg" data-lightbox="finearts" data-title="Sleepy Stars"><img src="img/art4.jpeg" alt="sleepy stars"/></a>
+	</div>
+	<p>"Sleepy Stars"<br/>20"x 25"<br/>Mixed Media</p>
+</div>
+
+<div class="artwork-container">
+	<div class="artwork">
+		<a href="img/art5.jpeg" data-lightbox="finearts" data-title="Koi Pond"><img src="img/art5.jpeg" alt="koipond"/></a>
+	</div>
+	<p>"Koi Pond"<br/>15"x 20"<br/>Watercolor and Acrylic <br>on Illustration Board</p>
+</div>
+
+<div class="artwork-container">
+	<div class="artwork">
+		<a href="img/art6.jpeg" data-lightbox="finearts" data-title="Jade Bridge"><img src="img/art6.jpeg" alt="jadebridge"/></a>
+	</div>
+	<p>"Jade Bridge"<br/>8"x 11"<br/>Polymer Clay and Nylon Cord</p>
+</div>
+<div class="clearfloat"></div>
+
+<!-- <div class="see">
+
+// I realized that this section may have been too similar to the animation lab we did in class so I ended up scrapping this part! // 
+
+<h2>Curious to see what an art piece would look like in a different setting?<br>Perhaps you want to measure it in your house, on a wall, etc...<br>Choose an image below then click a button to change its proportions!</h2>
+	<div class="main-img">
+		<img src="img/art1.jpeg" class="img-fluid" alt="USC Village">
+	</div>  --><!-- main-img -->
+
+	<!-- <div class="buttons">
+		<button type="button" class="btn btn-primary">transform</button>
+		<button type="button" class="btn btn-circle">rounder</button>
+		<button type="button" class="btn btn-secondary">back to original</button>
+	</div> --> <!-- buttons -->
+
+	<!-- <div class="bottompics">
+		<img src="img/art1.jpeg" id="art1" alt="Suicore" class="pics">
+		<img src="img/art2.jpeg" id="art2" alt="Infinity Knots" class="pics">
+		<img src="img/art3.jpeg" id="art3" alt="Onigiri Love" class="pics">
+		<img src="img/art4.jpeg" id="art4" alt="Sleepy Stars" class="pics">
+		<img src="img/art5.jpeg" id="art5" alt="Koi Pond" class="pics">
+		<img src="img/art6.jpeg" id="art6" alt="Jade Bridge" class="pics">
+	</div> --> <!-- bottompics -->
+<!-- </div> --><!-- see -->
+
+
+<div class="footer">
+<p>© 2022 by Rianne Aguas</p>
+</div> <!-- footer -->
+
+</div> <!-- container -->
+<script src="lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
